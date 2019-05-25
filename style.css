@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 微軟正黑體;
     color: rgba(36, 13, 5, 0.924);
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0);
 
 } 
 html,body{
@@ -17,6 +17,7 @@ body{
 .main{
     width: 80%;
     margin:0 auto;
+    background: rgba(0,0,0,0.3);
 }
 /* 導覽列 */
 .nav a{
@@ -29,13 +30,13 @@ body{
     display:inline-block;
     margin-left:30px;
     padding: 10px;
-    border-bottom:1px solid rgba(36, 13, 5, 0.924);
+    border-bottom:1px solid green
 }
 .nav #logo{
     display: inline-block;
     padding: 10px;
     font-size: 30px;
-    border-bottom:1px solid rgba(36, 13, 5, 0.924);
+    border-bottom:1px solid green
 }
 /* 內容區塊 */
 .contain h1{
@@ -54,11 +55,35 @@ body{
     margin-top: 50px;
     text-decoration: none;
     bottom: 1px solid white;
-    background-color: rgba(128,57,0,0.6);
+    background-color: rgba(128,57,0,0.603);
 }
 .contain ur{
     width: 300px;
     height: 5px;
-    background-color: rgba(36, 13, 5, 0.924);
+    background-color: green
     margin-top: 30px;
+}
+/* 按鈕 */
+.button{
+    text-align: center;
+    margin-top: 30px;
+}
+.button a{
+    display: inline-block;
+    width: 100px;
+    background-color: rgba(128,57,0,0.603);
+    border-radius: 50%;
+    padding: 30px;
+}
+.button a img{
+    width: 100%;
+}
+.footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    background-color:rgba(128,57,0,0.603);
+    height: 100px;
+    line-height: 100px;
 }
